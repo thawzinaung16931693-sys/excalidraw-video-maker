@@ -1,0 +1,14 @@
+interface:
+  display_name: Excalidraw Video Maker
+  short_description: Make narrated videos with Excalidraw art and SVG logos
+  default_prompt: Use $excalidraw-video-maker to turn my Excalidrawlib assets, SVG
+    logos, SRT, and voice-over into a video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
